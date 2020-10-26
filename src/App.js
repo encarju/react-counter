@@ -2,6 +2,7 @@
 import './App.css';
 import React from "react";
 import Counter from "./components/Counter";
+import CounterGroup from './components/CounterGroup';
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter/>
+        <CounterGroup size={size}/>
       </header>
     </div>
   );
